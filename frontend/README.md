@@ -1,24 +1,18 @@
+# 🎨 BookIt Frontend
 
----
-
-## ⚙️ BACKEND — `BookIt_backend/README.md`
-
-```markdown
-# ⚙️ BookIt Backend
-
-The **BookIt Backend** powers the data and booking logic for the BookIt platform.  
-It provides APIs for managing experiences, slots, and bookings — designed for scalability and simplicity.
+The **BookIt Frontend** is a modern React + TypeScript web app for exploring and booking unique travel experiences.  
+It features dynamic pages, slot-based booking, and smooth navigation — all powered by React Router and ShadCN UI.
 
 ---
 
 ## 🚀 Features
 
-- 📘 RESTful API endpoints for experiences and slots  
-- 🗓️ Slot-based booking availability system  
-- 💾 Persistent data storage using MongoDB / PostgreSQL  
-- 🧩 Modular Express routes and controllers  
-- ⚡ CORS-enabled for frontend integration  
-- ✅ Data validation and error handling
+- 🧭 Discover experiences and destinations  
+- 🗓️ Dynamic date & slot selection  
+- 👥 Guest management and live price updates  
+- 💳 Checkout flow with booking confirmation  
+- ⚡ Data fetching with TanStack Query  
+- 🪄 Clean and responsive UI built with Tailwind + ShadCN
 
 ---
 
@@ -26,10 +20,10 @@ It provides APIs for managing experiences, slots, and bookings — designed for 
 
 | Category | Technology |
 |-----------|-------------|
-| Runtime | Node.js |
-| Framework | Express.js |
-| Database | MongoDB (Mongoose) or PostgreSQL |
-| Validation | Zod / Joi |
-| CORS | Enabled for React frontend |
-| Environment | dotenv |
+| Framework | React (TypeScript) |
+| Styling | Tailwind CSS + ShadCN UI |
+| Data Fetching | TanStack React Query |
+| Routing | React Router DOM |
+| Notifications | ShadCN Toast + Sonner |
+| Icons | Lucide React |
 
