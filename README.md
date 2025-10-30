@@ -27,3 +27,56 @@ Built using **React + TypeScript**, **Tailwind CSS**, and **TanStack Query**, it
 | Routing | React Router DOM |
 | Notifications | ShadCN Toast & Sonner |
 | Icons | Lucide React |
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/priyanshudev04/BookIt_app.git
+   cd BookIt_app
+   
+2.npm install
+
+3.npm run dev
+
+4.Open in your browser:
+👉 http://localhost:5173
+🧩 API Setup
+
+Make sure your backend server (for experiences and slots) is running on:
+
+http://localhost:5000/api/
+
+
+Example endpoints:
+
+/api/experiences — List all experiences
+
+/api/experiences/:id — Get single experience details
+
+/api/experiences/:id/slots — Fetch available booking slots
+
+🧠 Future Enhancements
+
+💬 User authentication & profile management
+
+🌐 Integration with payment gateways
+
+🏖️ Search & filter for experiences
+
+📅 Booking history and cancellations
+
+👨‍💻 Author
+
+Priyanshu Pandey
+📧 GitHub: priyanshudev04
+
+Created as part of the Highway Delite Project — for exploring and booking experiences effortlessly.
+
+🪪 License
+
+This project is licensed under the MIT License.
+Feel free to use and modify with attribution.
